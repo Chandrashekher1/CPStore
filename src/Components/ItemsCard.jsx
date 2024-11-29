@@ -1,15 +1,21 @@
 import React, { useEffect } from 'react'
 
-const ItemsCard = ({name,cuisines}) => {
-
+const ItemsCard = (data) => {
+  const {
+    name,
+    cuisines,
+    cloudinaryImageId
+  } = data?.data
+  
   return (
-    <div className=''>
-        <div className='w-56 mx-4 my-6 border rounded-xl shadow-sm cursor-pointer hover:scale-90 '>
+    <div className='shadow-sm rounded-xl m-4 border'>
+        <div className='w-40  cursor-pointer hover:scale-90 '>
         <img 
-          className='w-full object-cover  h-24 rounded-lg bg-none'
-          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/90e56c9a689a6ec9b8a6136cbe058834" alt="" />
-        <p className='font-bold text-lg text-gray-800 my-1 -ml-32'>{name}</p>
-        <p className='font-semibold text-lg -ml-16 text-gray-500'>{cuisines}</p>
+          className='w-36 h-36'
+          src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142" alt="" />
+        <p className='font-semibold text-base text-gray-800 my-1 text-wrap'>{name}</p>
+        <p className='font-semibold text-md text-gray-500 text-wrap'>{cuisines}</p>
+        
     </div>
     </div>
     

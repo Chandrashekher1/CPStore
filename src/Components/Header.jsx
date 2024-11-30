@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Header = () => {
+  
+
   return (
     <div className='flex justify-between p-2 bg-white shadow-md'>
       <div className='px-6'>

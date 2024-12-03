@@ -4,6 +4,7 @@ import Body from './Components/Body';
 import Header from './Components/Header';
 import Login from './Components/Login';
 import Cart from './Components/Cart';
+import ItemsMenu from './Components/ItemsMenu';
 
 function App() {
   
@@ -32,6 +33,10 @@ function App() {
         {
           path: "/cart",
           element: <Cart/>
+        },
+        {
+          path:"/items",
+          element: <ItemsMenu/>
         }
       ]
     },

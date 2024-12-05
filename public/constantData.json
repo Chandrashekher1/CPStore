@@ -2,132 +2,560 @@
     "data": {
         "cards": [
             {
+                "id": "202329",
                 "info": {
-                    "id": "202329",
+                    
                     "name": "Milk, Curd, Butter (मक्खन) & ButterMilk (छाछ)",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://dairynews7x7.com/wp-content/uploads/2024/03/mother-dairy-demand-surge-dairynews7x7.jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu ": [
+                        
+                        {
+                            "id": "29",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "29",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "39",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
+                    
             },
             {
+                "id": "202355_1",
                 "info": {
-                    "id": "202355_1",
-                    "name": "Bread",
-                    "cloudinaryImageId": "",
+                    
+                    "name": "Bread & Eggs",
+                    "cloudinaryImageId": "https://harvestgold.in/image/ProductImage/818a8a255136cbe36165ad397ee9a2b4.png",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
+           
             {
+                "id": "202305",
                 "info": {
-                    "id": "202308",
-                    "name": "Eggs",
-                    "cloudinaryImageId": "",
-                    "cuisines": ""
-                }
-            },
-            {
-                "info": {
-                    "id": "202305",
+                    
                     "name": "Snacks and Munchies",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://i.ytimg.com/vi/7RGTb8_be0I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDr-3R7Jc_AHcOlcpMiLosUzrHzwg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202301_1",
                 "info": {
-                    "id": "202301_1",
+                    
                     "name": "Candies & Gums",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://5.imimg.com/data5/SELLER/Default/2022/2/RL/KO/BI/49615508/dry-fruit-toffee-500x500.jpeg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202355_2",
                 "info": {
-                    "id": "202355_2",
+                    
                     "name": "Cold Drinks & Juices",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://c8.alamy.com/comp/MGCHDE/poznan-poland-apr-6-2018-bottles-of-global-soft-drink-brands-including-products-of-coca-cola-company-and-pepsico-MGCHDE.jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202314",
                 "info": {
-                    "id": "202314",
+                    
                     "name": "BreakFast & Instant Food",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://beast-of-traal.s3.ap-south-1.amazonaws.com/2021/02/maggi-yippee-oodles.png",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202309",
                 "info": {
-                    "id": "202309",
+                    
                     "name": "Chocolates & Sweet",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://noongifts.com/cdn/shop/files/cadbury-dairy-milk-5-star-chocolates-kit-kat-gift-hamper.jpg?v=1697606316",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202320",
                 "info": {
-                    "id": "202320",
+                    
                     "name": "Biscuits & Bakery",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://i.ytimg.com/vi/x3lK_Hj1Ak0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD08hl4CFaEtT7CNxyhAYR5jHIWgA",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202325",
                 "info": {
-                    "id": "202325",
+                    
                     "name": "Tea, Coffee & Health Drink",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/bigbazaar%20(1).jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202342",
                 "info": {
-                    "id": "202342",
+                    
                     "name": "Atta, Rice & Dal",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://storage.googleapis.com/shy-pub/49210/1626252512397_Screenshot_20210714-140219.png",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202321",
                 "info": {
-                    "id": "202321",
+                    
                     "name": "Masale",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://www.spicevillage.eu/cdn/shop/collections/EVEREST.jpg?v=1654689454",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202316",
                 "info": {
-                    "id": "202316",
+                    
                     "name": "Oil",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://www.carrydor.com/cdn/shop/files/fortune-oil-pack.jpg?v=1716735086",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202301_2",
                 "info": {
-                    "id": "202301_2",
+                    
                     "name": "Sauces & Shampoo",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://richesm.com/wp-content/uploads/2022/10/Clinic-Plus-Strong-And-Shiny-Shampoo-192-Sachets.jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202314_1",
                 "info": {
-                    "id": "202314_1",
+                    
                     "name": "Baby Care",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://m.media-amazon.com/images/I/71XylO2TbCL.jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             },
             {
+                "id": "202336",
                 "info": {
-                    "id": "202336",
                     "name": "Washing Powder & Soap",
-                    "cloudinaryImageId": "",
+                    "cloudinaryImageId": "https://cpimg.tistatic.com/03484537/b/4/Surf-Excel-Detergent-Soaps-Powders.jpg",
                     "cuisines": ""
-                }
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
             }
         ]
     }

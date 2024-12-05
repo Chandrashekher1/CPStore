@@ -35,7 +35,7 @@ function App() {
           element: <Cart/>
         },
         {
-          path:"/items",
+          path:"/items/:itemId",
           element: <ItemsMenu/>
         }
       ]

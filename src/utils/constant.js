@@ -1,1 +1,1 @@
-export const API_KEY = "AIzaSyD39KMlqsGXg_kPkgJHLPc8WIyZ3J-kNxk"
+export const Image_URL = "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/"

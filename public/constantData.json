@@ -4,152 +4,142 @@
             {
                 "id": "202329",
                 "info": {
-                    
                     "name": "Milk, Curd, Butter (मक्खन) & ButterMilk (छाछ)",
                     "cloudinaryImageId": "https://dairynews7x7.com/wp-content/uploads/2024/03/mother-dairy-demand-surge-dairynews7x7.jpg",
                     "cuisines": ""
                 },
-                "ItemsMenu ": [
-                        
-                        {
-                            "id": "29",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "29",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "39",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "49",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "59",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        }
-                    ]
-                    
+                "ItemsMenu": [
+                    {
+                        "id": "29",
+                        "name": "Cow Milk",
+                        "cuisines": "Healthy & tasty"
+                    },
+                    {
+                        "id": "39",
+                        "name": "Buffalo Milk",
+                        "cuisines": "Rich in cream"
+                    },
+                    {
+                        "id": "49",
+                        "name": "Curd",
+                        "cuisines": "Probiotic & healthy"
+                    },
+                    {
+                        "id": "59",
+                        "name": "Butter",
+                        "cuisines": "Creamy & smooth"
+                    },
+                    {
+                        "id": "69",
+                        "name": "Buttermilk",
+                        "cuisines": "Refreshing & light"
+                    }
+                ]
             },
             {
                 "id": "202355_1",
                 "info": {
-                    
                     "name": "Bread & Eggs",
                     "cloudinaryImageId": "https://harvestgold.in/image/ProductImage/818a8a255136cbe36165ad397ee9a2b4.png",
                     "cuisines": ""
                 },
-                "ItemsMenu" : [
-                        
-                        {
-                            "id": "109",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "209",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "309",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "49",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "59",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        }
-                    ]
+                "ItemsMenu": [
+                    {
+                        "id": "109",
+                        "name": "Whole Wheat Bread",
+                        "cuisines": "High fiber"
+                    },
+                    {
+                        "id": "209",
+                        "name": "White Bread",
+                        "cuisines": "Soft & classic"
+                    },
+                    {
+                        "id": "309",
+                        "name": "Eggs",
+                        "cuisines": "Protein-rich"
+                    },
+                    {
+                        "id": "409",
+                        "name": "Multigrain Bread",
+                        "cuisines": "Nutritious & tasty"
+                    },
+                    {
+                        "id": "509",
+                        "name": "Bagels",
+                        "cuisines": "Chewy & delicious"
+                    }
+                ]
             },
-           
             {
                 "id": "202305",
                 "info": {
-                    
                     "name": "Snacks and Munchies",
                     "cloudinaryImageId": "https://i.ytimg.com/vi/7RGTb8_be0I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDr-3R7Jc_AHcOlcpMiLosUzrHzwg",
                     "cuisines": ""
                 },
-                "ItemsMenu" : [
-                        
-                        {
-                            "id": "109",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "209",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "309",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "49",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "59",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        }
-                    ]
+                "ItemsMenu": [
+                    {
+                        "id": "109",
+                        "name": "Potato Chips",
+                        "cuisines": "Crispy & salty"
+                    },
+                    {
+                        "id": "209",
+                        "name": "Popcorn",
+                        "cuisines": "Light & buttery"
+                    },
+                    {
+                        "id": "309",
+                        "name": "Nachos",
+                        "cuisines": "Crunchy & cheesy"
+                    },
+                    {
+                        "id": "409",
+                        "name": "Trail Mix",
+                        "cuisines": "Healthy & nutty"
+                    },
+                    {
+                        "id": "509",
+                        "name": "Pretzels",
+                        "cuisines": "Salty & crunchy"
+                    }
+                ]
             },
             {
                 "id": "202301_1",
                 "info": {
-                    
                     "name": "Candies & Gums",
                     "cloudinaryImageId": "https://5.imimg.com/data5/SELLER/Default/2022/2/RL/KO/BI/49615508/dry-fruit-toffee-500x500.jpeg",
                     "cuisines": ""
                 },
-                "ItemsMenu" : [
-                        
-                        {
-                            "id": "109",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "209",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "309",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "49",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        },
-                        {
-                            "id": "59",
-                            "name" : "Cow Milk",
-                            "cuisines" : "Healthy & tasty"
-                        }
-                    ]
+                "ItemsMenu": [
+                    {
+                        "id": "109",
+                        "name": "Fruit Candies",
+                        "cuisines": "Sweet & tangy"
+                    },
+                    {
+                        "id": "209",
+                        "name": "Chewing Gum",
+                        "cuisines": "Minty & refreshing"
+                    },
+                    {
+                        "id": "309",
+                        "name": "Chocolate Toffee",
+                        "cuisines": "Rich & creamy"
+                    },
+                    {
+                        "id": "409",
+                        "name": "Jelly Beans",
+                        "cuisines": "Fruity & chewy"
+                    },
+                    {
+                        "id": "509",
+                        "name": "Lollipops",
+                        "cuisines": "Fun & flavorful"
+                    }
+                ]
             },
             {
                 "id": "202355_2",
@@ -187,8 +177,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202314",
                 "info": {
                     
@@ -224,8 +214,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202309",
                 "info": {
                     
@@ -261,8 +251,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202320",
                 "info": {
                     
@@ -298,8 +288,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202325",
                 "info": {
                     
@@ -335,8 +325,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202342",
                 "info": {
                     
@@ -372,8 +362,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202321",
                 "info": {
                     
@@ -409,8 +399,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202316",
                 "info": {
                     
@@ -446,8 +436,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202301_2",
                 "info": {
                     
@@ -483,8 +473,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202314_1",
                 "info": {
                     
@@ -520,8 +510,8 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            },
-            {
+              },
+              {
                 "id": "202336",
                 "info": {
                     "name": "Washing Powder & Soap",
@@ -556,7 +546,7 @@
                             "cuisines" : "Healthy & tasty"
                         }
                     ]
-            }
+              }
         ]
     }
 }

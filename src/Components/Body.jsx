@@ -9,9 +9,7 @@ const Body = () => {
   return (
     <div>
         <BgSlide/>
-        <Items/>
-        <Footer/>
-
+        
     </div>
   )
 }

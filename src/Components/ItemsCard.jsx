@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ItemsCard = ({ data }) => {
-  const { name, cuisines, cloudinaryImageId } = data?.info || {};
+  const { name, cloudinaryImageId } = data?.info || {};
 
   return (
     <div className="shadow-sm rounded-xl mx-6 my-4 border">
@@ -14,9 +14,6 @@ const ItemsCard = ({ data }) => {
           />
           <p className="font-bold text-lg text-gray-800 my-4 text-wrap">
             {name}
-          </p>
-          <p className="font-semibold text-md text-gray-500 text-wrap">
-            {/* {cuisines || "No cuisines available"} */}
           </p>
         </div>
       </Link>

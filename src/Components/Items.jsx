@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import ItemsCard from './ItemsCard'
 import Shimmer from './Shimmer'
-import { useParams } from 'react-router-dom'
+
 
 const Items = () => {
   const [Items,setItems] = useState([])
-  const ItemsId = useParams()
-
+ 
   const fetchData = async () => {
     const data = await fetch('constantData.json')
     const json = await data.json()

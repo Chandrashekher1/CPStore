@@ -1,29 +1,29 @@
-import React, { useEffect, useState } from 'react'
-import ItemsCard from './ItemsCard'
-import Shimmer from './Shimmer'
-
+import { useEffect, useState } from "react";
+import ItemsCard from "./ItemsCard";
 
 const Items = () => {
-  const [Items,setItems] = useState([])
- 
-  const fetchData = async () => {
-    const data = await fetch('constantData.json')
-    const json = await data.json()
-    setItems(json.data?.cards || [])
-    // console.log(json?.data?.cards);
-  } 
+  const [cards, setCards] = useState([]);
+
   useEffect(() => {
-    fetchData()
-  } ,[])
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/constantData.json");
+        const json = await response.json();
+        setCards(json?.data?.cards || []);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+    fetchData();
+  }, []);
 
-
-  return Items.length===0 ? <Shimmer/> : (
-    <div className='flex flex-wrap mx-64'>
-        {Items.map((item) => (
-          <ItemsCard key={item?.info?.id} data={item}/>
-        ))}
+  return (
+    <div className="flex flex-wrap justify-center p-4 mx-64">
+      {cards.map((card) => (
+        <ItemsCard key={card.id} data={card} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
 export default Items

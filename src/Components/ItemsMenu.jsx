@@ -22,12 +22,15 @@ const ItemsMenu = () => {
   }, [ItemsId]);
 
   return (
-    <div className="p-6">
+    <div className="flex flex-wrap mx-48 ">
       {itemsMenu.length > 0 ? (
         itemsMenu.map((item) => (
-          <div key={item.id} className="p-4 border-b">
-            <h3 className="font-bold text-lg">{item.name}</h3>
-            <p className="text-gray-600">{item.cuisines || "No cuisines available"}</p>
+          <div key={item.id} className=" border p-2 m-4 cursor-pointer w-60 rounded-lg" >
+            <img src={item.cloudinaryImageId} alt="Image_Product" className="w-48 p-2" />
+            <h3 className="font-semibold ">{item.name}</h3>
+            <h4 className="font-semibold my-2">₹{item.rate}</h4>
+            <p className="text-gray-600">{item.weigth} - {item.cuisines || "No cuisines available"}</p>
+            <button className="border border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 ">ADD ME</button>
           </div>
         ))
       ) : (

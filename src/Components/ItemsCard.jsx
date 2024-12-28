@@ -7,7 +7,7 @@ const ItemsCard = ({ data }) => {
   return !data || Object.keys(data).length === 0 ? (
   <Shimmer />
   ) : (
-  <div className="shadow-sm rounded-xl border text-center m-2 ">
+  <div className="shadow-sm rounded-xl border text-center m-2  ">
     <Link to={`items/${data?.id}`}>
       <div className="w-28 cursor-pointer hover:scale-90">
         <img

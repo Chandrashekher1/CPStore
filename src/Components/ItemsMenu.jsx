@@ -34,7 +34,7 @@ const ItemsMenu = () => {
   }
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap mx-4">
       {itemsMenu.map((item) => (
         <div key={item.id} className="border m-2 w-32 rounded-lg text-center">
           <img

@@ -3,11 +3,14 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faHouse, faUser  } from '@fortawesome/free-solid-svg-icons';
 import { Shop_Logo } from '../utils/constant';
+import { useSelector } from 'react-redux';
 
 
 const Header = () => {
-
+  const cartItems = useSelector((store) => store.cart.items || []);
   const navigate = useNavigate()
+
+  
 
   const handleLogo = (e) =>{
     navigate("/")
@@ -22,7 +25,6 @@ const Header = () => {
           alt="logo"
           onClick={handleLogo}
         />
-        {/* <h1>CP03</h1> */}
       </div>
 
       <div className="flex p-2 cursor-pointer ml-12">
@@ -32,8 +34,9 @@ const Header = () => {
           </h3>
         </Link>
         <Link to="/cart">
-          <h3 className="mx-6 font-bold text-lg">
+          <h3 className="ml-6 mt-1 text-lg flex">
           <FontAwesomeIcon icon={faBagShopping} />
+          <span className='-mt-1 text-red-700 font-semibold'>({cartItems.length})</span>
           </h3>
         </Link>
         <Link to="/login">

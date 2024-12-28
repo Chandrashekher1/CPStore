@@ -6,7 +6,7 @@ const Checkout = () => {
   const cartItems = useSelector((store) => store.cart.items || []);
   const totalRate = cartItems.reduce((sum, item) => sum + (item?.rate || 0), 0);
   const navigate = useNavigate();
-
+  
   const handlePayment = () => {
     navigate("/payment/");
   };
@@ -30,9 +30,9 @@ const Checkout = () => {
             </div>
           ))
         ) : (
-          <p className="font-bold m-4">Your cart is empty.</p>
+          <p className="font-bold m-4 text-red-700 text-xl text-center">OOPS!! Your cart is empty. Please Add Some Items</p>
         )}
-        <div className="mt-8 p-4 bg-gray-50 rounded-lg shadow-md">
+        {cartItems.length > 0 && <div className="mt-8 p-4 bg-gray-50 rounded-lg shadow-md">
           <h2 className="font-bold">Bill Details</h2>
           <p className="flex justify-between font-medium mt-2">
             Items total <span>₹ {totalRate}</span>
@@ -43,23 +43,23 @@ const Checkout = () => {
           <p className="flex justify-between font-bold mt-4">
             Grand Total <span>₹ {totalRate}</span>
           </p>
-        </div>
-        <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+        </div>}
+        {cartItems.length >0 && <div className="mt-8 p-4 bg-gray-50 rounded-lg">
           <h1 className="font-bold">Cancellation Policy</h1>
           <p className="mt-4 text-gray-600">
             Orders cannot be cancelled once packed for delivery. In case of unexpected delays, a refund will be provided, if applicable.
           </p>
-        </div>
+        </div>}
       </div>
 
-      <div className="fixed bottom-4 left-1 right-2 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
+      {cartItems.length > 0 && <div className="fixed bottom-4 left-1 right-2 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
         <button
           className="font-semibold p-3 ml-8 bg-green-700 rounded-lg"
           onClick={handlePayment}
         >
           Add Payment Method {">"}
         </button>
-      </div>
+      </div>}
 
     </>
   );

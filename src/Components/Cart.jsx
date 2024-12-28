@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { clearItems, removeItems } from '../utils/cartSlice';
 
 const Cart = () => {
   const [dAddress, setAddress] = useState(false); 
   const [cartPage, setCartPage] = useState(true); 
   const cartItems = useSelector((store) => store.cart.items || []);
   const totalRate = cartItems.reduce((sum, item) => sum + (item?.rate || 0), 0);
+  const dispatch = useDispatch()
 
   const navigate = useNavigate()
 
@@ -24,9 +26,18 @@ const Cart = () => {
     navigate("/checkout/")
   }
 
+  const handleRemove = (props) => {
+    dispatch(removeItems({id:props?.id}))
+    
+  }
+  
+  const handleClearCart = () => {
+    dispatch(clearItems())
+  }
+
   return (
     <>
-      {/* Cart Page */}
+      <button className='font-semibold border p-2 rounded-lg ml-24 bg-red-600 text-white' onClick={handleClearCart}>Clear Cart</button>
       {cartPage && (
         <div className="overflow-y-auto max-h-screen pb-20">
           {cartItems.length > 0 ? (
@@ -42,16 +53,16 @@ const Cart = () => {
                   <p className="text-gray-500 mt-2">{item?.weight}</p>
                   <p className="mt-2 font-bold">₹ {item?.rate || 'No Price'}</p>
                 </div>
+                <button className='border bg-green-800 text-white h-10 rounded-lg p-1 mt-6 fixed ml-56' onClick={() =>handleRemove(item)}>Remove</button>
               </div>
             ))
           ) : (
-            <p className="font-bold m-4">Your cart is empty.</p>
+            <p className="text-center text-red-600 font-bold m-4 text-xl  ">OOPS!! Your cart is empty. Please Add Some Items</p>
           )}
         </div>
       )}
 
-      {/* Fixed "View Cart" Button */}
-      {cartPage && (
+      {cartPage && cartItems.length > 0 &&  (
         <div className="fixed bottom-4 left-3 right-4 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
           <div className="font-semibold">
             <p>{cartItems.length} Items</p>
@@ -61,7 +72,7 @@ const Cart = () => {
             className="font-semibold focus:outline-none"
             onClick={handleAddressPage}
           >
-            View Cart <span className="text-white font-extrabold">{"->"}</span>
+            Check Bill <span className="text-white font-extrabold">{"->"}</span>
           </button>
         </div>
       )}

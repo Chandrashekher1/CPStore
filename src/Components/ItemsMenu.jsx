@@ -70,7 +70,7 @@ const ItemsMenu = () => {
       ))}
     </div>
 
-    <div className="fixed bottom-4 left-3 right-4 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
+    {cartItems.length > 0 && <div className="fixed bottom-4 left-3 right-4 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
           <div className="font-semibold">
             <p>{cartItems.length} Items</p>
             <p>₹{totalRate}</p>
@@ -81,7 +81,7 @@ const ItemsMenu = () => {
           >
             View Cart <span className="text-white font-extrabold">{"->"}</span>
           </button>
-        </div>
+        </div>}
       
     
     </>

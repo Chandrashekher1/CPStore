@@ -10,14 +10,12 @@ const Header = () => {
   const cartItems = useSelector((store) => store.cart.items || []);
   const navigate = useNavigate()
 
-  
-
   const handleLogo = (e) =>{
     navigate("/")
   }
 
   return (
-    <div className="flex justify-between p-1 sticky top-0 bg-white shadow-md">
+    <div className="flex justify-between p-1 sticky top-1 bg-white shadow-md">
       <div className="">
         <img
           className="w-20 h-12 cursor-pointer"

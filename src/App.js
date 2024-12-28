@@ -6,6 +6,10 @@ import Login from './Components/Login';
 import Cart from './Components/Cart';
 import ItemsMenu from './Components/ItemsMenu';
 import Items from "./Components/Items";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Checkout from "./Components/Checkout";
+import PaymentCheckOut from "./Components/PaymentCheckOut";
 
 const AppLayout = () => (
   
@@ -21,7 +25,11 @@ const AppLayout = () => (
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout />,
+    element: (
+      <Provider store={appStore}>
+        <AppLayout/>
+      </Provider>
+    ),
     children: [
       {
         path: "/",
@@ -38,7 +46,16 @@ const appRouter = createBrowserRouter([
       {
         path: "/items/:ItemsId",
         element: <ItemsMenu />,
+
       },
+      {
+        path: "/checkout/",
+        element: <Checkout />,
+      },
+      {
+        path:"/payment/",
+        element:<PaymentCheckOut/>
+      }
     ],
   },
 ]);

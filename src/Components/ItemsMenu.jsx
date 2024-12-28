@@ -1,13 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../Hooks/useOnlineStatus";
+import { useDispatch, useSelector } from "react-redux";
+import { addItems } from "../utils/cartSlice";
 
 const ItemsMenu = () => {
   const { ItemsId } = useParams(); // Access the dynamic route parameter
   const [itemsMenu, setItemsMenu] = useState([]);
   const onlineStatus = useOnlineStatus();
+  const cartItems = useSelector((store) => store.cart.items || []);
+  const totalRate = cartItems.reduce((sum, item) => sum + (item?.rate || 0), 0);
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
 
+  
   const fetchData = async () => {
     try {
       const response = await fetch("/constantData.json");
@@ -15,7 +22,7 @@ const ItemsMenu = () => {
       const menuData = json?.data?.cards || [];
       const selectedItem = menuData.find((item) => item.id === ItemsId);
       setItemsMenu(selectedItem?.ItemsMenu || []);
-      console.log(selectedItem);
+      // console.log(selectedItem);
     } catch (error) {
       console.error("Error fetching menu data:", error);
     }
@@ -33,8 +40,17 @@ const ItemsMenu = () => {
     return <Shimmer />;
   }
 
+  const handleAddItem = (item) => {
+    dispatch(addItems(item))
+  }
+
+  const handleCart = () => {
+    navigate("/cart")
+  }
+
   return (
-    <div className="flex flex-wrap mx-4">
+    <>
+    <div className="flex flex-wrap ml-4">
       {itemsMenu.map((item) => (
         <div key={item.id} className="border m-2 w-32 rounded-lg text-center">
           <img
@@ -47,12 +63,28 @@ const ItemsMenu = () => {
           <p className="text-gray-600">
             {item.weigth} - {item.cuisines || ""}
           </p>
-          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2">
+          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90" onClick={() => handleAddItem(item)}>
             ADD ME
           </button>
         </div>
       ))}
     </div>
+
+    <div className="fixed bottom-4 left-3 right-4 bg-green-700 text-white flex items-center justify-between rounded-xl px-4 py-1 m-2 shadow-lg z-50">
+          <div className="font-semibold">
+            <p>{cartItems.length} Items</p>
+            <p>₹{totalRate}</p>
+          </div>
+          <button
+            className="font-semibold focus:outline-none"
+            onClick={handleCart}
+          >
+            View Cart <span className="text-white font-extrabold">{"->"}</span>
+          </button>
+        </div>
+      
+    
+    </>
   );
 };
 

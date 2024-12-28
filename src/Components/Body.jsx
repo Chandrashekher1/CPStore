@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { search_Logo } from "../utils/constant";
 import { useParams } from "react-router-dom";
-import ItemsMenu from "./ItemsMenu";
-import useOnlineStatus from "../Hooks/useOnlineStatus";
 
 const Body = () => {
   const { ItemsId } = useParams(); // Access the dynamic route parameter
@@ -36,15 +34,6 @@ const Body = () => {
     setFilterItem(filteredItems);
   };
 
-  const onlineStatus = useOnlineStatus()
-
-  // if(onlineStatus === false){
-  //   return (
-  //     <div>
-  //       <h1>Ooops! You have lost your internet connection</h1>
-  //     </div>
-  //   )
-  // }
   return (
     <div>
       {/* Search Bar */}
